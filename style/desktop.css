@@ -1,0 +1,133 @@
+@media screen and (min-width: 1200px) {
+    main {
+        min-width: 1100px;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 250px auto;
+        gap: 30px;
+    }
+
+    section.first {
+        grid-column-start: 2;
+        grid-column-end: 4;
+        padding: 45px 60px;
+    }
+
+    section.first img {
+        width: 200px;
+    }
+
+    section.first h1 {
+        font-size: 46px;
+    }
+
+    section.second {
+        font-size: 18px;
+        grid-column-start: 2;
+        grid-row-start: 2;
+        overflow: hidden;
+        padding: 30px;
+    }
+
+    section.second img {
+        width: 300px;
+    }
+
+    section.third {
+        font-size: 18px;
+        grid-column-start: 3;
+        grid-row-start: 2;
+        padding: 30px;
+    }
+
+    section.third img {
+        width: 100%;
+        margin-bottom: -150px;
+    }
+
+    section.fourth {
+        grid-column-start: 4;
+        grid-row-start: 1;
+        grid-row-end: 3;
+        overflow: hidden;
+    }
+
+    section.fourth h2 {
+        font-size: 30px;
+        text-align: left;
+        line-height: 26px;
+    }
+
+    section.fourth img {
+        height: 270px;
+        width: 380px;
+        margin-right: -140px;
+    }
+
+    section.fourth p {
+        text-align: left;
+    }
+
+    section.fifth {
+        grid-column-start: 3;
+        grid-column-end: 5;
+        display: grid;
+        grid-template-columns: auto auto;
+        padding: 30px;
+    }
+
+    section.fifth img {
+        width: 230px;
+    }
+
+    section.fifth h2 {
+        font-size: 34px;
+        text-align: left;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    section.sixth {
+        grid-column-start: 2;
+        grid-row-start: 3;
+    }
+
+    section.sixth img {
+        margin-top: 30px;
+        width: 100%;
+    }
+
+    section.seventh {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        height: 345px;
+        padding: 50px 20px 40px;
+    }
+
+    section.seventh img {
+        width: 100%;
+    }
+
+    section.eigth {
+        grid-column-start: 1;
+        grid-row-start: 2;
+        grid-row-end: 4;
+        margin-top: 95px;
+    }
+
+    section.eigth h2 {
+        line-height: 34px;
+        font-size: 36px;
+        padding-top: 10px;
+        padding-bottom: 50px;
+    }
+
+    section.eigth img {
+        width: 100%;
+    }
+
+    footer p {
+        max-width: 100%;
+    }
+}
